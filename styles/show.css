@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin:0%;
+    padding: 0;
+    
+}
+body{
+    font-family: Roboto;
+    margin-bottom: 0px;
+    background-color: rgb(245, 245, 245);
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+    color:black;
+    background-color:white;
+}
+.fnav .left{
+    display:flex; 
+    margin-top: 3px;
+}
+.left img{
+    width:17%;
+    margin-top: 7px;
+    margin-right: none;
+}
+.left input{
+    margin-inline:12px;
+    width: 560px;
+    height: 33px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(238, 238, 238);
+    outline: none;
+    text-align: left;
+    padding-left:43px;
+    margin-top: 16px;
+    border-radius: 2px;
+    background-image: url(/icons/search1.png);
+    background-repeat: no-repeat;
+    background-position:9px 9px;
+    background-size:3%;
+
+    
+}
+.fnav .right{
+    display:flex; 
+    margin-top: 3px;
+    align-items: center;
+} 
+.right p{
+    margin-inline: 22px;
+    font-size: 18px;
+
+}
+.right button{
+    margin-inline: 22px;
+    width: 70px;
+    height: 25px;
+    background-color:rgb(248, 68, 100);
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    color: white;
+    border: none;
+    border-radius:2px;
+    
+}
+.right img{
+    margin-inline: 22px;
+    width:40px;
+    height:40px;
+    font-size: 22px;
+
+}
+.sec-nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 9px;
+    background-color:rgb(235, 235, 235);
+}
+.s-left{
+    display: flex;
+  }
+
+.s-right{
+    display: flex;
+}
+.sec-nav p:hover{
+    color:rgb(173, 11, 38);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.s-left p{
+    margin-inline-start: 18px;
+   }
+.s-right p{
+    margin-inline-start: 18px;
+}
+.main img{
+    width: 100%;
+    border-radius:16px;
+    background-color:rgb(235, 235, 235); 
+}
+.container h2{
+    padding: 10px;
+}
+.container .class{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.cards img{
+    width: 19%;
+    margin-block: 18px;
+    border-radius: 8px;
+    margin-inline-start: 8px;
+
+   
+}
+.banner img{
+    width:1125px;
+    margin-top: 45px;
+    margin-left: 60px;
+    margin-right: auto;
+
+}
+ .movie-info p{
+    display: inline;
+
+    
+}
+.a{
+    display: inline-block;
+}
+.a img{
+    width: 230px;
+    height: 360px;
+    margin-inline-start: 12px;
+    border-radius: 8px;
+}
+.movie-info{
+    margin-inline-start: 12px;
+    line-height: 28px;
+}
+
+
+
+.container2{
+    margin-top: 80px;
+    margin-left: 31px;
+}
+
+
+.b img{
+    width: 208px;
+    height: 210px;
+    margin-inline-start: 31px;
+    margin-top: 5px;
+    border-radius: 6px;
+
+
+}
+.b{
+    display: inline-block;
+}
+
+
+.premhead h2{
+    display:inline-block;
+    color: white;
+}
+.premhead{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.c{
+    display: inline-block;
+}
+.c img{
+    width: 210px;
+    height: 320px;
+    margin-inline-start: 28px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.prembody{
+    background-color:rgb(43, 49, 73) ;
+}
+.movie-info2{
+    margin-inline-start: 28px;
+}
+.movie-info2 p{
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 35px;
+}
+
+.container3{
+    margin-top: 40px;
+    
+}
+.container4{
+    margin-top: 100px;
+    
+}
+
+
+.trend{
+    display: inline-block;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-right:45px;
+    margin-inline-start: 16px;
+    margin-bottom: 18px;
+    margin-top:8px ;
+}
+.container5{
+    background-color: rgb(51, 51, 56);
+    padding-left: 15px;
+}
+
+.links p:hover{
+    color: white;
+}
+.logos{
+   background-color:  rgb(51, 51, 56);
+   display: flex;
+   justify-content: center;
+   padding-top:30px;
+}
+div .logimg{
+    height: 35px;
+    width:35px;
+    border-radius: 20px;
+    margin-inline-start: 14px;
+    opacity: 0.2;
+    
+}
+
+div .logimg:hover{
+    opacity: 1;
+}
+
+
+.footer {
+    background-color: rgb(51, 51, 56);
+    color: #999;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    position: relative;
+    max-width: 100%;
+    max-height: 500px; 
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+.slides img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.nav-btn {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #333;
+    transition: background 0.3s;
+}
+
+.nav-btn:hover {
+    background: #333;
+}
+
+#slide1:checked ~ .slides {
+    transform: translateX(0%);
+}
+
+
+#slide2:checked ~ .slides {
+    transform: translateX(-100%);
+}
+
+
+#slide3:checked ~ .slides {
+    transform: translateX(-200%);
+}
+
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+#slide1:checked ~ .next {
+    right: 10px;
+}
+#slide1:checked ~ .prev {
+    display: none;
+}
+#slide1:checked ~ label[for="slide2"] {
+    display: block;
+}
+
+
+#slide2:checked ~ .next {
+    right: 10px;
+    label[for="slide3"] {
+        display: block;
+    }
+}
+#slide2:checked ~ .prev {
+    left: 10px;
+    label[for="slide1"] {
+        display: block;
+    }
+}
+
+
+#slide3:checked ~ .prev {
+    left: 10px;
+    label[for="slide2"] {
+        display: block;
+    }
+}
+#slide3:checked ~ .next {
+    display: none;
+}
